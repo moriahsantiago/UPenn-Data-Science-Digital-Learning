@@ -36,7 +36,7 @@ Coursework and projects from the University of Pennsylvania Graduate School of E
 ### Performance Comparison
 Traditional statistical approach (Week 15 NLP) achieved highest accuracy at 72.4%, while neural networks (Week 14) reached 66.8% AUC on complex multi-class affect detection. Deep learning BERT (Week 16) achieved 61%, demonstrating that model complexity doesn't always correlate with performance - proper feature engineering and data preprocessing remain crucial.
 
-## Data Sources=
+## Data Sources
 * **Week 14**: ASSISTments platform affect detection dataset - previously used in educational data mining research (Ocumpaugh et al., 2014; Botelho et al., 2017)
 * **Week 15**: Kaggle Competition - "Sentiment analysis of student evaluations (IES 3)" (CC BY-SA 3.0 License)
 * **Week 16**: IELTS Writing Scored Essays Dataset from Kaggle
