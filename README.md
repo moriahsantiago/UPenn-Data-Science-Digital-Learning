@@ -3,6 +3,18 @@ Coursework and projects from the University of Pennsylvania Graduate School of E
 
 ## Course Projects
 
+**Neural Networks and Deep Learning**
+
+**Week 14: Student Affect Detection with Neural Networks**
+* **Data Source**: ASSISTments digital learning platform (48,716 student interaction records)
+* **Task**: Multi-class classification of student emotional states (concentration, boredom, confusion, frustration)
+* **Methodology**: Feed-forward neural networks + LSTM sequence modeling comparison
+* **Performance**: Best model AUC = 0.668 (2-layer feed-forward: 128→64 nodes, ReLU activation)
+* **Architecture Comparison**: Tested 4 configurations (1-3 hidden layers, ReLU vs Tanh activation)
+* **Key Finding**: Feed-forward networks (AUC=0.668) outperformed sequence-aware models (AUC=0.521)
+* **Technologies**: Python, Keras/TensorFlow, 5-fold cross-validation, ASSISTments behavioral data
+* **Features**: 92 aggregated behavioral metrics (attempt counts, hint usage, time patterns)
+
 ### Natural Language Processing
 
 #### Week 15: Sentiment Analysis with R - Student Teacher Evaluations
@@ -22,7 +34,7 @@ Coursework and projects from the University of Pennsylvania Graduate School of E
 - **Technologies**: Python, BERT, Simple Transformers, pandas, scikit-learn
 
 ### Performance Comparison
-Traditional statistical approach (Week 15) achieved higher accuracy than deep learning (Week 16), demonstrating the effectiveness of proper feature engineering in NLP tasks.
+Traditional statistical approach (Week 15 NLP) achieved highest accuracy at 72.4%, while neural networks (Week 14) reached 66.8% AUC on complex multi-class affect detection. Deep learning BERT (Week 16) achieved 61%, demonstrating that model complexity doesn't always correlate with performance - proper feature engineering and data preprocessing remain crucial.
 
 ## Data Sources
 - **Week 15**: Kaggle Competition - "Sentiment analysis of student evaluations (IES 3)" (CC BY-SA 3.0 License)
