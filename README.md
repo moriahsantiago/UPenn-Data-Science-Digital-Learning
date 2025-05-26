@@ -1,9 +1,22 @@
 # UPenn-Data-Science-Digital-Learning
-Coursework and projects from the University of Pennsylvania Graduate School of Education's Data Science Methods for Digital Learning Platforms certificate program. Includes NLP projects, machine learning applications in education, and learning analytics implementations.
+Coursework and projects from the University of Pennsylvania Graduate School of Education's Data Science Methods for Digital Learning Platforms certificate program. Includes NLP projects, machine learning applications in education, learning analytics implementations, and social network analysis.
 
 ## Course Projects
 
 **Neural Networks and Deep Learning**
+
+### **Social Network Analysis**
+**Week 11: MOOC Forum Interaction Network Analysis**
+* **Data Source**: MOOC discussion forum dataset (198 posts, 103 students) from Dr. Ryan Baker's Big Data and Education course
+* **Task**: Social network construction and analysis of student-to-student reply interactions
+* **Methodology**: Graph theory analysis using NetworkX - geodesic distances, centrality measures, connectivity analysis
+* **Key Findings**: 
+  - Network density: 2% (110 actual connections out of 5,253 possible)
+  - Central students: 12345 (most responded to, 16 replies) and 24601 (most active, 24 posts)
+  - Average path length demonstrates small-world properties in educational discussions
+* **Network Metrics**: In-degree/out-degree centrality, shortest path algorithms, reachability analysis
+* **Technologies**: Python, NetworkX, pandas, matplotlib, directed/undirected graph construction
+* **Data Wrangling**: Post-to-poster mapping, undirected pair creation, self-loop removal, isolated node detection
 
 **Week 14: Student Affect Detection with Neural Networks**
 * **Data Source**: ASSISTments digital learning platform (48,716 student interaction records)
