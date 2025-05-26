@@ -5,6 +5,23 @@ Coursework and projects from the University of Pennsylvania Graduate School of E
 
 **Neural Networks and Deep Learning**
 
+## Cluster Analysis and Data Visualization
+**Week 10: Hierarchical Cluster Analysis with ComplexHeatmap**
+
+- **Data Source:** USJudgeRatings dataset (43 judges rated on 12 performance criteria by lawyers)
+- **Task:** Multi-method clustering comparison and judicial performance pattern identification  
+- **Methodology:** Hierarchical clustering vs K-means clustering with multiple distance metrics
+- **Key Findings:**
+  - CONT (lawyer contacts) consistently separates from judicial quality measures
+  - Judges cluster into 3 distinct performance tiers (high/medium/low performers)
+  - Uncentered correlation reveals rating patterns independent of absolute performance levels
+- **Technologies:** R, ComplexHeatmap, Bioconductor packages, hierarchical clustering algorithms
+- **Methods Compared:** 
+  - Euclidean distance + complete linkage (default)
+  - Uncentered correlation + average linkage (Bowers et al. 2022 methodology)
+  - K-means clustering with standardized data (k=3)
+- **Visualization:** Professional heatmaps with dendrograms showing cluster relationships and performance patterns
+
 ### **Social Network Analysis**
 **Week 11: MOOC Forum Interaction Network Analysis**
 * **Data Source**: MOOC discussion forum dataset (198 posts, 103 students) from Dr. Ryan Baker's Big Data and Education course
